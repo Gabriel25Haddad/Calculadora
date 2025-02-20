@@ -6,7 +6,7 @@ public class calculadora {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int escolha;
-
+        
         System.out.println("Escolha a operação desejada: ");
         System.out.println("1 - Soma");
         System.out.println("2 - Subtração");
@@ -34,7 +34,7 @@ public class calculadora {
         scanner.close();
         
     }
-
+    //método de soma
     public static void soma() {
         Scanner scanner = new Scanner(System.in);
         int num1, num2, resultado;
@@ -48,7 +48,7 @@ public class calculadora {
         System.out.println("O resultado da soma é: " + resultado);
         scanner.close();  
     }
-
+    //método de subtração
     public static void subtracao() {
         Scanner scanner = new Scanner(System.in);
         int num1, num2, resultado;
@@ -62,7 +62,7 @@ public class calculadora {
         System.out.println("O resultado da subtração é: " + resultado);
         scanner.close();  
     }
-
+    //método de multiplicação
     public static void multiplicacao() {
         Scanner scanner = new Scanner(System.in);
         int num1, num2, resultado;
@@ -76,7 +76,7 @@ public class calculadora {
         System.out.println("O resultado da multiplicação é: " + resultado);
         scanner.close();  
     }   
-
+    //método de divisão
     public static void divisao() {
         Scanner scanner = new Scanner(System.in);
         int num1, num2;
