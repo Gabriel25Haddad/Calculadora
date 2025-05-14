@@ -27,7 +27,3 @@ Este é um projeto simples de uma calculadora em Java que realiza operações b�
 Ao executar o programa, você será solicitado a escolher uma operação:
 
 Depois de escolher a operação, você será solicitado a inserir os números para realizar a operação e o resultado será exibido.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](http://_vscodecontentref_/1) para mais detalhes.
